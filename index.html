@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <style>
+body{background-color: green;}
+.penguin *{position: absolute;}
+.penguin{position: relative; margin-top: 5%; width: 300px; height: 300px; margin:auto; 
+   display: block; }
+
+.rc{width: 60%;height: 70%;background-color: white; 
+   border-radius: 70% 70% 60% 60%; top: 15%;left: 35%; }
+.lc{width: 60%;height: 70%;  background-color: white;
+    border-radius: 70% 70% 60% 60%; top: 15%;left:5% ; }
+.belly{background-color: white; width: 160%; height: 125%; top: 80%; left: -5%;
+    border-radius: 120% 120% 115% 115%;}
+.pt{ background-color: black; width: 50%; height: 45%;border-radius: 70% 70% 60% 60%; top: 10%; left: 25%;}
+.pb{background-color: black; width: 53%;height: 45%; border-radius: 70% 70% 100% 100%; top: 40%; left:23% ;
+   }    
+.rh{background-color: black; height: 70%;width: 30%; border-radius:60% 60% 60% 60%;
+   transform:rotate(130deg); top: -25%; left: -10%; animation-name: abc; animation-duration: 2s; 
+   animation-timing-function: linear; animation-iteration-count: infinite; }
+   @keyframes abc{0%{transform: rotate(130deg);} 25%{transform: rotate(110);} 50%{transform: rotate(130);}
+    75%{transform: rotate(110deg);} 100%{animation-delay: .5s;}  }
+.lh{background-color: black; height: 70%;width: 30%; border-radius:60% 60% 60% 60%;
+   transform:rotate(130deg); top: -10%; left: 80%; }
+.rf{background-color: rgb(255, 196, 0); height: 20%; width: 20%; top: 90%; left: 20%;
+   border-radius: 60% 30% 60% 30%; z-index: -1; }   
+.lf{background-color: rgb(255, 196, 0); height: 20%; width: 20%; top: 90%; left: 60%;
+   border-radius: 30% 60% 30% 60%; z-index: -1; } 
+.br{background-color: pink; height: 15%; width: 30%; top: 70%; left: 20%; border-radius: 60% 60% 60% 60%;  }
+.bl{background-color: pink; height: 15%; width: 30%; top: 70%; left: 100%; border-radius: 60% 60% 60% 60%;  }
+.re{
+  width: 25%;
+  height: 25%;
+  top: 30%;
+  left: 40%;
+  border-radius: 50%;
+  box-shadow: inset 0px 6px rgb(3, 3, 3);
+} 
+.le{
+   width: 25%;
+  height: 25%;
+  top: 30%;
+  left: 85%;
+  border-radius: 50%;
+  box-shadow: inset 0px 6px rgb(3, 3, 3);
+}   
+.bt{background-color: rgb(255, 196, 0); top: 60%; left: 60%; height: 10%; width: 30%; border-radius: 40% 40% 30% 30%; }
+.bb{background-color: rgb(255, 196, 0); top: 65%; left: 66%; height: 10%; width: 20%; border-radius: 30% 30% 50% 50%;
+   </style>
+</head>
+<body>
+    <div class="penguin">
+       <div class="pb">
+          <div class="rh"></div>
+          <div class="lh"></div>
+          <div class="rf"></div>
+          <div class="lf"></div>
+          
+       </div>
+        
+       <div class="pt">
+             <div class="rc"></div>
+             <div class="lc">
+               <div class="belly"></div>
+             <div class="re"></div>
+             <div class="le"></div>
+             <div class="br"></div>
+             <div class="bl"></div>
+             <div class="bt"></div>
+             <div class="bb"></div>
+             </div>
+
+      </div>
+</body>
+</html>
